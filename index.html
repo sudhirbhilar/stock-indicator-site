@@ -7,8 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Existing content above... -->
+    
     <h1>Stock Indicator: Relative Strength</h1>
+    
+    <!-- Add this dropdown to your existing content for stock selection -->
+    <label for="stockSelect">Choose a stock:</label>
+    <select id="stockSelect">
+        <option value="TCS.NS">TCS</option>
+        <option value="RELIANCE.NS">Reliance</option>
+        <option value="INFY.NS">Infosys</option>
+        <!-- Add more stocks here -->
+    </select>
+    
+    <!-- Add this canvas for the chart (you can adjust placement as needed) -->
     <canvas id="stockChart"></canvas>
+
+    <!-- Existing content below... -->
+    
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="app.js"></script>
 </body>
